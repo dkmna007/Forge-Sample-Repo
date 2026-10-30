@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dandora Panic Response System</title>
+    <meta
+      name="description"
+      content="An emergency panic-button and dispatch system designed for high-risk areas like Dandora, with fast reporting to a central command centre and specialized response units."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true">
+      <span class="scroll-progress-bar"></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-bar">
+        <div class="brand">
+          <span class="brand-mark">AF</span>
+          <span>Alert Forge Dandora</span>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#problem">Threats</a>
+          <a href="#solution">Response</a>
+          <a href="#training">Dispatch</a>
+        </nav>
+        <a class="button button-primary" href="#training">Activate Response</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal" data-reveal>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Panic alert • Central command • Rapid dispatch</p>
+            <h1>Faster emergency response for a high-risk community like Dandora.</h1>
+            <p class="lead">
+              Inspired by panic-button systems used in New York City boroughs and the Philippines,
+              this project enables residents and workers to send a direct alert to a central command centre
+              when danger, theft, assault, or other emergencies occur. It reduces the delay caused by slow,
+              traditional reporting channels and helps dispatch teams respond faster.
+            </p>
+
+            <div class="cta-row">
+              <a class="button button-primary" href="#training">Request Emergency Dispatch</a>
+              <a class="button button-secondary" href="#solution">See the Response Model</a>
+            </div>
+
+            <div class="stats">
+              <div class="stat-card">
+                <strong data-target="24" data-suffix="/7">24</strong>
+                <span>command monitoring</span>
+              </div>
+              <div class="stat-card">
+                <strong data-target="3" data-suffix="">3</strong>
+                <span>special dispatch units</span>
+              </div>
+              <div class="stat-card">
+                <strong data-target="1" data-suffix="">1</strong>
+                <span>central response hub</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Project visual summary">
+            <div class="panel-card live-panel">
+              <div class="panel-top-row">
+                <div class="mini-label">Dandora Node</div>
+                <div class="clock-wrap">
+                  <span class="clock-label">Live</span>
+                  <span id="live-clock">--:--:--</span>
+                </div>
+              </div>
+
+              <h2>Alert + Dispatch</h2>
+
+              <div class="status-meter" aria-live="polite">
+                <div class="status-header">
+                  <span class="signal-dot"></span>
+                  <strong id="status-label">Normal patrol</strong>
+                </div>
+                <div class="meter-track">
+                  <div id="readiness-fill" class="meter-fill" data-level="green"></div>
+                </div>
+                <p id="status-detail">All response units are in standby and ready to mobilize.</p>
+              </div>
+
+              <div class="status-buttons" aria-label="System status controls">
+                <button class="status-btn active" type="button" data-level="clear" aria-pressed="true">Normal</button>
+                <button class="status-btn" type="button" data-level="watch" aria-pressed="false">Watch</button>
+                <button class="status-btn" type="button" data-level="alert" aria-pressed="false">Panic</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="problem" class="section problem-section reveal" data-reveal>
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">The issue</p>
+            <h2>Dandora faces a serious safety challenge, and slow reporting can turn a local danger into a major emergency.</h2>
+          </div>
+
+          <div class="problem-layout">
+            <div class="image-card">
+              <img src="assets/incident-map.svg" alt="Emergency response and crime prevention project illustration" />
+            </div>
+
+            <div class="problem-copy">
+              <p>
+                In high-crime areas such as Dandora, people often face delays when they try to report danger,
+                theft, intimidation, or violent incidents through normal channels. The time spent waiting for a call,
+                explaining the situation, or getting through a busy reporting line can make a meaningful difference.
+              </p>
+              <p>
+                The result is that incidents can escalate before help arrives. A direct panic alert system helps trigger
+                the central command centre immediately so trained emergency teams can respond without the usual bottlenecks.
+              </p>
+
+              <ul class="check-list">
+                <li>People need a faster way to alert authorities during active danger.</li>
+                <li>Crime incidents often require immediate coordination between patrols and dispatch.</li>
+                <li>Specialized response teams must be notified quickly to de-escalate and protect the public.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solution" class="section solution-section reveal" data-reveal>
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">The response model</p>
+            <h2>A practical emergency panic network that cuts delay and supports trained dispatch units.</h2>
+          </div>
+
+          <div class="kpi-grid" aria-label="Emergency response metrics">
+            <div class="kpi-card kpi-card--primary" data-live-stat="alerts">
+              <span class="kpi-label">Alerts logged</span>
+              <strong data-target="284">284</strong>
+              <small>vs last week +18%</small>
+            </div>
+            <div class="kpi-card kpi-card--success" data-live-stat="resolved">
+              <span class="kpi-label">Resolved</span>
+              <strong data-target="76">76%</strong>
+              <small>response cleared</small>
+            </div>
+            <div class="kpi-card kpi-card--warning" data-live-stat="dispatch">
+              <span class="kpi-label">Avg dispatch</span>
+              <strong data-target="2.4">2.4s</strong>
+              <small>from alert trigger</small>
+            </div>
+            <div class="kpi-card kpi-card--danger" data-live-stat="priority">
+              <span class="kpi-label">High-risk zones</span>
+              <strong data-target="12">12</strong>
+              <small>active priority watch</small>
+            </div>
+          </div>
+
+          <div class="dashboard-showcase" aria-label="Power BI style metrics dashboard">
+            <img src="assets/dashboard-panel.svg" alt="Power BI style emergency dashboard with incident metrics and dispatch data" />
+          </div>
+
+          <div class="solution-grid">
+            <article class="solution-card">
+              <div class="icon">01</div>
+              <h3>Direct panic trigger</h3>
+              <p>
+                The system allows a person in danger to signal help instantly through a single action,
+                reducing the time lost in slow, unclear reporting chains.
+              </p>
+            </article>
+
+            <article class="solution-card">
+              <div class="icon">02</div>
+              <h3>Central command centre</h3>
+              <p>
+                The alert is routed to a command centre that can verify the incident, coordinate teams,
+                and dispatch the right units without delay.
+              </p>
+            </article>
+
+            <article class="solution-card">
+              <div class="icon">03</div>
+              <h3>Specialized emergency units</h3>
+              <p>
+                The network supports trained response teams for crime, medical emergencies, and rapid,
+                high-alert situations where quick intervention is critical.
+              </p>
+            </article>
+          </div>
+
+          <div class="solution-quote">
+            <p>
+              In a high-risk area, every second matters. The goal is simple: alert faster, coordinate better,
+              and bring trained responders to the scene before the situation worsens.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section zone-section reveal" data-reveal>
+        <div class="container zone-panel">
+          <div class="section-heading center">
+            <p class="eyebrow">Priority response map</p>
+            <h2>Monitor emergency coverage across Dandora's busiest hotspots.</h2>
+          </div>
+
+          <div class="zone-grid">
+            <div class="zone-controls">
+              <button class="zone-btn active" type="button" data-zone="Dandora Market" aria-pressed="true">Dandora Market</button>
+              <button class="zone-btn" type="button" data-zone="Mugoya Road" aria-pressed="false">Mugoya Road</button>
+              <button class="zone-btn" type="button" data-zone="Kangundo Road" aria-pressed="false">Kangundo Road</button>
+            </div>
+
+            <div class="zone-card" aria-live="polite">
+              <div class="zone-header">
+                <div>
+                  <p class="zone-kicker">Active hotspot</p>
+                  <h3 id="zone-title">Dandora Market</h3>
+                </div>
+                <span id="zone-badge" class="zone-badge">Monitoring</span>
+              </div>
+
+              <p id="zone-note" class="zone-note">Foot traffic is high, and patrol teams are ready to respond to suspicious activity.</p>
+
+              <div class="zone-metrics">
+                <div>
+                  <span>Readiness</span>
+                  <strong id="zone-readiness">89%</strong>
+                </div>
+                <div>
+                  <span>Dispatch</span>
+                  <strong id="zone-response">2.4s</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="training" class="section cta-section reveal" data-reveal>
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Emergency dispatch</p>
+            <h2>Need a faster way to report danger and mobilize help in high-risk zones?</h2>
+          </div>
+
+          <div class="cta-content">
+            <p>
+              This project is designed for communities where crime pressure is high and every delay matters.
+              It supports a faster emergency process, stronger coordination with the central command centre,
+              and more effective action from specialized response units.
+            </p>
+            <a class="button button-primary" href="mailto:hello@alertforge.example">Request Emergency Response Planning</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Alert Forge Dandora</p>
+        <p>Built for rapid safety response, crime reporting, and smarter emergency coordination.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
