@@ -29,6 +29,8 @@
    cd ~/forge/server
    python3 app.py
 
+   git remote add origin https://github.com/dkmna007/Forge-Sample-Repo
+
    * Serving Flask app 'app'
    * Running on all addresses (0.0.0.0)
    * Running on http://127.0.0.1:5000
