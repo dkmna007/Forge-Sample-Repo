@@ -1,0 +1,46 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="36" fill="#EAF5FF"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#F9FCFF" stroke="#D5E7F8" stroke-width="2"/>
+  <path d="M185 230C265 175 302 185 376 208C460 235 532 257 609 226C679 198 760 148 870 165C941 176 1004 204 1050 244V540C987 572 924 589 841 585C749 581 682 547 622 565C564 582 502 615 420 607C332 598 296 551 238 530C198 515 153 509 118 518V279C132 260 157 244 185 230Z" fill="#D8EFFF"/>
+  <path d="M124 442C296 343 400 333 514 365C623 396 701 429 776 403C876 367 950 364 1048 412V545C981 584 913 596 831 591C738 585 680 548 611 564C519 585 441 620 329 610C248 602 172 568 124 542V442Z" fill="#E5F4FF"/>
+  <rect x="160" y="145" width="118" height="58" rx="18" fill="#08345F"/>
+  <text x="219" y="182" text-anchor="middle" fill="white" font-size="26" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Dandora</text>
+
+  <g opacity="0.35" stroke="#7BAFDD" stroke-width="2">
+    <path d="M210 260L362 289L485 258L625 302L785 279L937 305"/>
+    <path d="M200 390L362 420L518 387L662 432L816 410L974 447"/>
+    <path d="M257 510L360 470L492 534L652 496L772 532L902 494"/>
+  </g>
+
+  <g>
+    <circle cx="360" cy="286" r="16" fill="#6EE7A8"/>
+    <circle cx="620" cy="300" r="16" fill="#F6B454"/>
+    <circle cx="810" cy="420" r="16" fill="#FF7A7A"/>
+    <circle cx="485" cy="380" r="16" fill="#61B8FF"/>
+  </g>
+
+  <g>
+    <rect x="838" y="166" width="220" height="154" rx="22" fill="#0A2D4D"/>
+    <text x="865" y="205" fill="#BEE7FF" font-size="18" font-family="Segoe UI, Arial, sans-serif">Critical areas</text>
+    <text x="865" y="245" fill="white" font-size="48" font-family="Segoe UI, Arial, sans-serif" font-weight="700">3</text>
+    <text x="865" y="282" fill="#BEE7FF" font-size="18" font-family="Segoe UI, Arial, sans-serif">responders queued</text>
+  </g>
+
+  <g>
+    <rect x="170" y="436" width="192" height="178" rx="22" fill="#FFFFFF" stroke="#DCECFD"/>
+    <text x="196" y="474" fill="#123154" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="600">Live intake</text>
+    <rect x="196" y="494" width="120" height="12" rx="6" fill="#EAF5FF"/>
+    <rect x="196" y="494" width="92" height="12" rx="6" fill="#61B8FF"/>
+    <rect x="196" y="528" width="134" height="12" rx="6" fill="#EAF5FF"/>
+    <rect x="196" y="528" width="103" height="12" rx="6" fill="#6EE7A8"/>
+    <rect x="196" y="562" width="108" height="12" rx="6" fill="#EAF5FF"/>
+    <rect x="196" y="562" width="76" height="12" rx="6" fill="#FF7A7A"/>
+  </g>
+
+  <g>
+    <rect x="760" y="468" width="236" height="136" rx="22" fill="#FFFFFF" stroke="#DCECFD"/>
+    <text x="790" y="505" fill="#123154" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="600">Dispatch ETA</text>
+    <text x="790" y="560" fill="#0B2D51" font-size="42" font-family="Segoe UI, Arial, sans-serif" font-weight="700">2.4s</text>
+    <text x="790" y="588" fill="#4A6B8A" font-size="16" font-family="Segoe UI, Arial, sans-serif">average arrival</text>
+  </g>
+</svg>

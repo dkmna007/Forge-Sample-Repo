@@ -1,0 +1,19 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" fill="#E8F5FF"/>
+  <rect x="60" y="60" width="1080" height="700" rx="40" fill="#0B2342"/>
+  <rect x="120" y="120" width="500" height="320" rx="28" fill="#1B4E82"/>
+  <rect x="660" y="120" width="420" height="160" rx="20" fill="#5BB8FF" fill-opacity="0.9"/>
+  <rect x="660" y="310" width="420" height="130" rx="20" fill="#BCE3FF" fill-opacity="0.9"/>
+  <rect x="120" y="490" width="960" height="180" rx="24" fill="#F7FBFF"/>
+  <circle cx="300" cy="280" r="82" fill="#BCE3FF" fill-opacity="0.9"/>
+  <path d="M255 280L290 315L350 255" stroke="#0B2342" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M700 200H980" stroke="#0B2342" stroke-width="16" stroke-linecap="round"/>
+  <path d="M700 245H940" stroke="#0B2342" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <path d="M700 370H970" stroke="#0B2342" stroke-width="16" stroke-linecap="round"/>
+  <path d="M700 415H900" stroke="#0B2342" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <rect x="200" y="530" width="260" height="40" rx="20" fill="#5BB8FF"/>
+  <rect x="490" y="530" width="220" height="40" rx="20" fill="#A9D7FF"/>
+  <rect x="740" y="530" width="200" height="40" rx="20" fill="#5BB8FF"/>
+  <text x="600" y="680" text-anchor="middle" fill="#1B4E82" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Project Image Placeholder</text>
+  <text x="600" y="730" text-anchor="middle" fill="#4A6F95" font-family="Segoe UI, Arial, sans-serif" font-size="26">Replace with your final screenshot or photo</text>
+</svg>
